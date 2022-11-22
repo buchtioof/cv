@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "Sinistre";
+    src: url("/fonts/Sinistre-StCaroline.woff2") format("woff2"), url("/fonts/Sinistre-StCaroline.woff") format("woff");
+}
+
+a,
+body,
+html,
+p,
+h1,
+h2,
+li,
+ul,
+img {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: url("stars.bmp");
+    background-repeat: 50%;
+}
+
+.titre {
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    text-align: center;
+    color: #FFF;
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 64px;
+    text-shadow: 0px 0px 15px #FFFFFF;
+}
+
+.p1 {
+    font-family: 'Comic Sans MS';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+}
