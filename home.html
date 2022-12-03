@@ -2,6 +2,8 @@
 
 <head>
     <link rel="stylesheet" href="/styles/home.css" />
+    <link rel="stylesheet" href="/styles/cursor.css">
+    <link rel="stylesheet" href="/styles/fadepages.css">
 </head>
 
 <body>
@@ -9,15 +11,19 @@
         <video autoplay="autoplay" loop="loop" muted="muted" src="/vid/bg.mp4"></video>
     </div>
     <div class="centerized">
-        <table width="800" height="400" border="0">
-            <tbody>
-                <tr>
-                    <td colspan="3" rowspan="2" valign="middle" align="right">
-                        <h1>ramzi idir</h1>
-                        <p class="p1">my personal CV</p>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="separ20">
+            <img src="/img/">
+            <h1>ramzi idir</h1>
+            <p class="p1">student</p>
+        </div>
+        <div class="navbar">
+            <button class="navitem"><a href="/pages/about.html">about me</a></button>
+            <button class="navitem"><a href="/pages/motivation.html">application letter</a></button>
+        </div>
     </div>
-</body>
+
+    <!--Cursor Part-->
+    <div class="cursor-outer"></div>
+    <div class="cursor-inner"></div>
+    <script src="/js/cursor.js" />
+    </body>

@@ -15,8 +15,7 @@ img {
 }
 
 body {
-    background-image: url("/img/test.gif");
-    background-repeat: repeat;
+    background-color: black;
 }
 
 video {
@@ -36,6 +35,10 @@ video {
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.separ20{
+    padding-bottom: 20px;
 }
 
 h1 {
@@ -75,7 +78,8 @@ button {
     background: transparent;
     border: none;
     transition: transform .2s;
-    position: relative
+    position: relative;
+    padding: 0 10px 0 10px;
 }
 
 button:hover {
@@ -90,4 +94,9 @@ a {
     text-decoration: none;
     color: white;
     text-align: center;
+}
+
+a:hover{
+    text-decoration: underline;
+
 }
