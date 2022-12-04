@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=DM+Serif+Text:regular,italic);
+@import url(https://fonts.googleapis.com/css?family=Plus+Jakarta+Sans:200,300,regular,500,600,700,800,200italic,300italic,italic,500italic,600italic,700italic,800italic);
+
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 3%;
+    overflow: hidden;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    font-family: "Plus Jakarta Sans";
+}
+
+h1 {
+    font-family: "DM Serif Text";
+    color: white;
+}
+
+.navhor {
+    padding: 0 24px 0 0;
+    float: left;
+}
+
+.navver {
+    padding-bottom: 10px;
+}
+
+.logo {
+    width: auto;
+    height: 48px;
+}
+
+.section {
+    height: 100vh;
+}
+
+.section—first {
+    height: 90vh;
+}
