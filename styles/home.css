@@ -37,7 +37,7 @@ video {
     transform: translate(-50%, -50%);
 }
 
-.separ20{
+.separ20 {
     padding-bottom: 20px;
 }
 
@@ -59,7 +59,7 @@ h1 {
     text-align: center;
 }
 
-.logo{
+.logo {
     width: auto;
     height: 48px;
 }
@@ -96,7 +96,6 @@ a {
     text-align: center;
 }
 
-a:hover{
+a:hover {
     text-decoration: underline;
-
 }

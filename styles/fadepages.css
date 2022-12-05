@@ -13,7 +13,7 @@ img {
 
 body {
     background-color: black;
-    animation: fadein ease 1s;
+    animation: fadein ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }

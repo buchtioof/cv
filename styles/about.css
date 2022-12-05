@@ -1,11 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=DM+Serif+Text:regular,italic);
 @import url(https://fonts.googleapis.com/css?family=Plus+Jakarta+Sans:200,300,regular,500,600,700,800,200italic,300italic,italic,500italic,600italic,700italic,800italic);
 
+.navigator {
+    width: 30%;
+    padding: 4% 0 0 4%;
+    z-index: 999;
+}
 
 .nav {
     list-style-type: none;
     margin: 0;
-    padding: 3%;
+    padding: 0 0 20% 0;
     overflow: hidden;
 }
 
@@ -15,6 +20,10 @@ li a {
     text-align: left;
     text-decoration: none;
     font-family: "Plus Jakarta Sans";
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 h1 {
