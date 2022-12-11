@@ -2,7 +2,6 @@
 @import url(https://fonts.googleapis.com/css?family=Plus+Jakarta+Sans:200,300,regular,500,600,700,800,200italic,300italic,italic,500italic,600italic,700italic,800italic);
 
 .navigator {
-    width: 30%;
     padding: 4% 0 0 4%;
     z-index: 999;
 }
@@ -12,6 +11,10 @@
     margin: 0;
     padding: 0 0 20% 0;
     overflow: hidden;
+}
+
+td {
+    padding: 5%;
 }
 
 li a {
@@ -45,10 +48,45 @@ h1 {
     height: 48px;
 }
 
+.imgbtn{
+    width: 30px;
+}
+
 .section {
     height: 100vh;
 }
 
 .section—first {
     height: 90vh;
+}
+
+/*Test hover backbtn*/
+#side-menu {
+    background-color: black;
+    color: white;
+    width: 250px;
+    list-style: none;
+    transition: ease-in-out all .4s;
+    display: table;
+}
+
+.backbtn {
+    height: 100%;
+    display: table-cell;
+}
+
+.side-menu-label {
+    float: left;
+    width: 100px;
+    opacity: 0;
+    position: absolute;
+    transition: ease-in-out all .4s;
+}
+
+#side-menu:hover {
+    width: 400px;
+}
+
+#side-menu:hover .side-menu-label {
+    opacity: 1;
 }
