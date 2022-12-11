@@ -52,6 +52,10 @@ h1 {
     width: 30px;
 }
 
+.content{
+    text-align: right;
+}
+
 .section {
     height: 100vh;
 }
