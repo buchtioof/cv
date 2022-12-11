@@ -1,29 +1,44 @@
 <!DOCTYPE html>
+<!-- Doctype indiquant que le document est en HTML5 -->
 <html lang="en">
+<!-- Début de la balise html, avec l'attribut lang définissant la langue -->
 
 <head>
+    <!-- Début de la balise head, qui contient des informations sur la page et non pas son contenu -->
     <meta charset="UTF-8">
+    <!-- Définition de l'encodage de caractères pour la page -->
     <link rel="stylesheet" href="/styles/cursor.css">
+    <!-- Chargement du fichier de style "cursor.css" depuis le dossier "styles" -->
     <link rel="stylesheet" href="/styles/fadepages.css">
+    <!-- Chargement du fichier de style "fadepages.css" depuis le dossier "styles" -->
     <link rel="stylesheet" href="/styles/aboutsection.css">
+    <!-- Chargement du fichier de style "aboutsection.css" depuis le dossier "styles" -->
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <title>about me</title>
+    <!-- Chargement des polices de caractères "Material Symbols Rounded" depuis Google Fonts -->
+    <title>about my hobbies</title>
+    <!-- Définition du titre de la page -->
 </head>
+<!-- Fin de la balise head -->
 
-<body>
+
+<body
+    style="background-image: url(https://github.com/nicoth-in/Dark-Space-Theme/blob/master/img/background.gif?raw=true);">
     <table>
-        <td width="500">
+        <td width="600">
             <div class="navigator">
                 <ul class="nav">
                     <li class="navhor">
-                        <ul id="side-menu">
+                        <ul id="btncontainer">
                             <li class="backbtn" style="width: 0;">
-                                <a class="imgbtn" href="/index.html"><span
-                                        class="material-symbols-rounded">arrow_back</span></a>
+                                <a class="imgbtn" href="/index.html">
+                                    <span class="material-symbols-rounded">
+                                        arrow_back
+                                    </span>
+                                </a>
                             </li>
                             <li class="backbtn">
-                                <div class="side-menu-label"><a href="/index.html">Home</a></div>
+                                <div class="btnlabel"><a href="/index.html">Home</a></div>
                             </li>
                         </ul>
                     </li>
@@ -32,29 +47,38 @@
                     </li>
                 </ul>
                 <ul class="nav">
-                    <li class="navver"><a href="/pages/myself.html">myself</a></li>
-                    <li class="navver"><a href="/pages/about/educ.html">education</a></li>
+                    <li class="navver"><a href="/pages/myself.html"">myself</a></li>
+                    <li class=" navver"><a href="/pages/about/educ.html">education</a></li>
                     <li class="navver"><a href="/pages/about/proxp.html">professional xp</a></li>
                     <li class="navver"><a href="/pages/about/persoxp.html">personal xp</a></li>
-                    <li class="navver"><a href="/pages/about/hobbies.html" style="text-decoration: underline;">hobbies</a></li>
+                    <li class="navver"><a href="/pages/about/hobbies.html" style=" text-decoration:
+                        underline;">hobbies</a></li>
                 </ul>
             </div>
         </td>
-        <td width="1000">
-            <div class="content">
-                <h2>hobbies 🍰</h2>
+        <td width="2000">
+            <ul style="list-style: none;">
+                <li>
+                    <h2>hobbies 🥵🥶🤠🤡</h2>
+                </li>
                 <br>
-                <ul style="list-style: none;">
-                    <li>Reading books </li>
-                    <li>Watch movies</li>
-                    <li>Create multiple corporations with success</li>
-                    <li>Listen music</li>
-                </ul>
-            </div>
+                <br>
+                <li>
+                    <ul style="list-style: none;">
+                        <li><p>Reading books 📚</p></li>
+                        <br>
+                        <li><p>Watch movies 🎞️</p></li>
+                        <br>
+                        <li><p>Create multiple corporations with success 😍</p></li>
+                        <br>
+                        <li><p>Listen music 🎹</p></li>
+                    </ul>
+                </li>
+            </ul>
         </td>
     </table>
-    <div class="content"></div>
-    <!--Cursor Part-->
+
+    <!--Cursor custom-->
     <div class="cursor-outer"></div>
     <div class="cursor-inner"></div>
     <script src="/js/cursor.js" />

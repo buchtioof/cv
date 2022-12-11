@@ -17,10 +17,8 @@ td {
     padding: 5%;
 }
 
-li a {
-    display: block;
+a, p {
     color: white;
-    text-align: left;
     text-decoration: none;
     font-family: "Plus Jakarta Sans";
 }
@@ -29,23 +27,21 @@ a:hover {
     text-decoration: underline;
 }
 
-h1 {
+h1, h2, h3{
     font-family: "DM Serif Text";
     color: white;
 }
 
 h2 {
-    font-family: "DM Serif Text";
-    font-size: xx-large;
+    font-size: x-large;
 }
 
-p {
-    font-family: "Plus Jakarta Sans";
+h3 {
+    font-size: large;
 }
 
-.ppramz {
-    height: 100px;
-    border-radius: 999px;
+.logolycee{
+    width: 92px;
 }
 
 .navhor {
@@ -57,20 +53,9 @@ p {
     padding-bottom: 10px;
 }
 
-.imgbtn {
-    width: 30px;
-}
-
-.content {
-    color: white;
-}
-
-.section {
-    height: 100vh;
-}
-
-.section—first {
-    height: 90vh;
+.ppramz {
+    height: 100px;
+    border-radius: 999px;
 }
 
 /*Bouton back css (animation)*/

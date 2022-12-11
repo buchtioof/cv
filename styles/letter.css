@@ -52,7 +52,7 @@ h1,a,p{
   /* Gives that scrolling effect as the typing happens */
   letter-spacing: .17em;
   /* Adjust as needed */
-  animation: typing 3.5s steps(30, end), blinking-cursor .5s step-end infinite;
+  animation: typing 3.5s steps(20, end), blinking-cursor .5s;
 }
 
 /* The typing effect */
