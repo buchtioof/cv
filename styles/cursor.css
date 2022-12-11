@@ -1,4 +1,3 @@
-/*Cursor Start*/
 [class^="cursor"] {
     position: fixed;
     top: 0;
@@ -22,14 +21,14 @@
     background: #fff;
 }
 
-.content:hover~.cursor-outer {
+#navitem:hover~.cursor-outer {
     width: 90px;
     height: 90px;
     background: #fff;
     mix-blend-mode: difference;
 }
 
-.content:hover~.cursor-inner {
+.content:hover~.cursor-outer {
     opacity: 0;
 }
 
