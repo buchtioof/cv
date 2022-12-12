@@ -7,38 +7,38 @@ h1,a,p{
   color: white;
 }
 
-
-/*Test hover backbtn*/
-#side-menu {
-  background-color: black;
-  color: white;
-  width: 250px;
-  list-style: none;
-  transition: ease-in-out all .4s;
-  display: table;
+/*Bouton back css (animation)*/
+#btncontainer {
+    background-color: transparent;
+    color: white;
+    width: 250px;
+    list-style: none;
+    transition: ease-in-out all .4s;
+    display: table;
 }
 
 .backbtn {
-  height: 100%;
-  display: table-cell;
+    height: 100%;
+    display: table-cell;
 }
 
-.side-menu-label {
-  float: left;
-  width: 100px;
-  opacity: 0;
-  position: absolute;
-  transition: ease-in-out all .4s;
+.btnlabel {
+    float: left;
+    width: 100px;
+    opacity: 0;
+    position: absolute;
+    transition: ease-in-out all .4s;
 }
 
-#side-menu:hover {
-  width: 400px;
+#btncontainer:hover {
+    width: 400px;
 }
 
-#side-menu:hover .side-menu-label {
-  opacity: 1;
+#btncontainer:hover .btnlabel {
+    opacity: 1;
 }
 
+/*Effect typewriter letter*/
 .typewriter p {
   font-family: Comic Sans MS;
   /* Web-safe typewriter-like font */
